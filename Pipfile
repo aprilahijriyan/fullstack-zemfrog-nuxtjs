@@ -4,6 +4,8 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+zemfrog = ">=2.0.3"
+pipenv-shebang = "*"
 
 [dev-packages]
 
@@ -14,3 +16,4 @@ python_version = "3.6"
 build = "python scripts/build.py"
 install = "python scripts/install.py"
 manage = "python scripts/manage.py"
+reset = "python scripts/reset.py"
