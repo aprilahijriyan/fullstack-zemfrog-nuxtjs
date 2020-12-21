@@ -4,8 +4,6 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-zemfrog = ">=2.0.3"
-pipenv-shebang = "*"
 
 [dev-packages]
 
