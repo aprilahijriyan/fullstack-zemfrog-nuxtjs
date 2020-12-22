@@ -27,3 +27,9 @@ Build a NuxtJS SPA and copy the results to the `static` and `templates` director
 ```sh
 pipenv run build
 ```
+
+To reset the environment, do this:
+
+```sh
+pipenv run reset
+```
