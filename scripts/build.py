@@ -11,6 +11,7 @@ ignore_files = ("200.html", ".nojekyll", "README.md")
 
 def build():
     os.chdir(os.getenv("FRONTEND_DIR", "frontend"))
+    os.system("yarn install")
     os.system("yarn generate")
     copy_static_file()
     copy_templates()

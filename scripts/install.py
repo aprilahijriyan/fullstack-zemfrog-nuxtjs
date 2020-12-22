@@ -8,6 +8,9 @@ os.system(
     f"git clone https://github.com/aprilahijriyan/zemfrog-nuxtjs-tailwindcss --depth 1 {frontend_name}")
 
 # install dependencies
+os.chdir(frontend_name)
+os.system("yarn install")
+os.chdir("..")
 os.system("pipenv install zemfrog\>\=2.0.3")
 
 # create backend
