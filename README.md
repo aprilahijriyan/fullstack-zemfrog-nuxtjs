@@ -33,3 +33,9 @@ To reset the environment, do this:
 ```sh
 pipenv run reset
 ```
+
+Or, just clean the build up:
+
+```sh
+pipenv run clean
+```
