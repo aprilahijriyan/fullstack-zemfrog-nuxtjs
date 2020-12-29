@@ -11,7 +11,7 @@ os.system(
 os.chdir(frontend_name)
 os.system("yarn install")
 os.chdir("..")
-os.system("pipenv install zemfrog\>\=2.0.3")
+os.system("pipenv install zemfrog\>\=3.0.1")
 
 # create backend
 os.system(f"zemfrog create {backend_name}")
